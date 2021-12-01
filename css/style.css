@@ -1,0 +1,36 @@
+/*navigation bar*/
+.navbar {
+  height: 100vh;
+  position: relative;
+  background-image: url("https://images.pexels.com/photos/322207/pexels-photo-322207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar .nav-buttons {
+  justify-content: flex-end;
+}
+
+.navbar ul {
+  z-index: 10;
+  list-style: none;
+}
+
+.navbar ul li {
+  display: inline-block;
+  background-color: transparent;
+  position: relative;
+  list-style-type: none;
+  margin-right: -4px;
+  padding: 10px;
+  border: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #fff;
+  margin-right: 1em;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQSxpQkFBQTtBQUNBO0VBQ0UsYUFBYTtFQUNiLGtCQUFrQjtFQUNsQixzSUFBc0k7RUFDdEksa0NBQWtDO0VBQ2xDLHNCQUFzQjtFQUN0Qiw0QkFBNEI7QUNEOUI7O0FETEE7RUFRSSx5QkFBeUI7QUNDN0I7O0FEVEE7RUFXSSxXQUFXO0VBQ1gsZ0JBQWdCO0FDRXBCOztBRGRBO0VBY00scUJBQW9CO0VBQ3BCLDZCQUE0QjtFQUM1QixrQkFBaUI7RUFDakIscUJBQW9CO0VBQ3BCLGtCQUFpQjtFQUNqQixhQUFZO0VBQ1osWUFBVztBQ0lqQjs7QUR4QkE7RUF3QkkscUJBQXFCO0VBQ3JCLGdCQUFnQjtFQUNoQixXQUFXO0VBQ1gsaUJBQWlCO0FDSXJCIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
